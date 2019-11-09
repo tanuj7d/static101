@@ -1,5 +1,10 @@
 {
   "scripts": {
-    "build": "echo yo"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html; mv dist public;"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
   }
 }
