@@ -1,3 +1,5 @@
 {
-  "build": "echo yo"
+  "scripts": {
+    "build": "echo yo"
+  }
 }
